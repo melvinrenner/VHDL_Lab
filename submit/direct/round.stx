@@ -1,0 +1,59 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/xilinxShare/submission_template/submit/direct/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/xilinxShare/submission_template/submit/direct/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/direct/mulop.vhd" in Library work.
+Architecture behavioral of Entity mulop is up to date.
+Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/direct/addop.vhd" in Library work.
+Architecture behavioral of Entity addop is up to date.
+Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/direct/xorop.vhd" in Library work.
+Entity <xorop> compiled.
+Entity <xorop> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" in Library work.
+Entity <round> compiled.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 82. Formal port O does not exist in Component 'mulop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 87. Formal port O does not exist in Component 'addop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 92. Formal port O does not exist in Component 'addop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 97. Formal port O does not exist in Component 'mulop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 102. Formal port O does not exist in Component 'xorop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 107. Formal port O does not exist in Component 'xorop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 112. Formal port O does not exist in Component 'mulop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 117. Formal port O does not exist in Component 'addop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 122. Formal port O does not exist in Component 'mulop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 127. Formal port O does not exist in Component 'addop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 132. Formal port O does not exist in Component 'xorop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 137. Formal port O does not exist in Component 'xorop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 142. Formal port O does not exist in Component 'xorop'.
+ERROR:HDLParsers:850 - "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" Line 147. Formal port O does not exist in Component 'xorop'.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+
+Total memory usage is 567488 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

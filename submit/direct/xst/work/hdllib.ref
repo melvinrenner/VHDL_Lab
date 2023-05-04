@@ -1,0 +1,9 @@
+AR addop behavioral /home/ise/xilinxShare/submission_template/submit/direct/addop.vhd sub00/vhpl01 1683129127
+EN mulop NULL /home/ise/xilinxShare/submission_template/submit/direct/mulop.vhd sub00/vhpl02 1683129124
+EN trafo NULL /home/ise/xilinxShare/submission_template/submit/direct/trafo.vhd sub00/vhpl07 1683129128
+EN addop NULL /home/ise/xilinxShare/submission_template/submit/direct/addop.vhd sub00/vhpl00 1683129126
+AR trafo behavioral /home/ise/xilinxShare/submission_template/submit/direct/trafo.vhd sub00/vhpl08 1683129129
+EN round NULL /home/ise/xilinxShare/submission_template/submit/direct/round.vhd sub00/vhpl06 1683057373
+EN xorop NULL /home/ise/xilinxShare/submission_template/submit/direct/xorop.vhd sub00/vhpl04 1683057371
+AR mulop behavioral /home/ise/xilinxShare/submission_template/submit/direct/mulop.vhd sub00/vhpl03 1683129125
+AR xorop behavioral /home/ise/xilinxShare/submission_template/submit/direct/xorop.vhd sub00/vhpl05 1683057372

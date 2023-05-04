@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/xilinxShare/submission_template/submit/direct/tb_idea_isim_beh.exe -prj /home/ise/xilinxShare/submission_template/submit/direct/tb_idea_beh.prj work.tb_idea 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/xorop.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/mulop.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/addop.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/trafo.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/idea.vhd" into library work
+Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/direct/tb_idea.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97240 KB
+Fuse CPU Usage: 1460 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity mulop [mulop_default]
+Compiling architecture behavioral of entity addop [addop_default]
+Compiling architecture behavioral of entity xorop [xorop_default]
+Compiling architecture behavioral of entity round [round_default]
+Compiling architecture behavioral of entity trafo [trafo_default]
+Compiling architecture structural of entity idea [idea_default]
+Compiling architecture behavior of entity tb_idea
+Time Resolution for simulation is 1ps.
+Compiled 16 VHDL Units
+Built simulation executable /home/ise/xilinxShare/submission_template/submit/direct/tb_idea_isim_beh.exe
+Fuse Memory Usage: 112000 KB
+Fuse CPU Usage: 1750 ms
+GCC CPU Usage: 630 ms
