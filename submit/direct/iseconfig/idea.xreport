@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-04-30T13:14:56</DateModified>
+  <DateModified>2023-05-06T16:30:48</DateModified>
   <ModuleName>idea</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/ise/xilinxShare/submission_template/submit/direct/iseconfig/idea.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/xilinxShare/submission_template/submit/direct</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/ise/xilinxShare/submission_template/submit/direct/</ImplementationReportsDirectory>
   <DateInitialized>2023-04-30T13:14:56</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,0 +1,5 @@
+vhdl work "/home/ise/xilinxShare/submission_template/submit/rcs1/reg16bit.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/rcs1/mux2x1.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/rcs1/keygen.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/rcs1/control.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/rcs1/idea_single.vhd"

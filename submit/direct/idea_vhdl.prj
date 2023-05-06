@@ -1,0 +1,6 @@
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/xorop.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/mulop.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/addop.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/trafo.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/round.vhd"
+vhdl work "/home/ise/xilinxShare/submission_template/submit/direct/idea.vhd"

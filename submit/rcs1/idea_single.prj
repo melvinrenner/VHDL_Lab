@@ -1,0 +1,5 @@
+vhdl work "reg16bit.vhd"
+vhdl work "mux2x1.vhd"
+vhdl work "keygen.vhd"
+vhdl work "control.vhd"
+vhdl work "idea_single.vhd"

@@ -1,0 +1,10 @@
+EN mux2x1 NULL /home/ise/xilinxShare/submission_template/submit/rcs1/mux2x1.vhd sub00/vhpl07 1683384876
+AR mux2x1 behavioral /home/ise/xilinxShare/submission_template/submit/rcs1/mux2x1.vhd sub00/vhpl08 1683384877
+EN keygen NULL /home/ise/xilinxShare/submission_template/submit/rcs1/keygen.vhd sub00/vhpl05 1683384874
+EN reg16bit NULL /home/ise/xilinxShare/submission_template/submit/rcs1/reg16bit.vhd sub00/vhpl02 1683384878
+AR reg16bit behavioral /home/ise/xilinxShare/submission_template/submit/rcs1/reg16bit.vhd sub00/vhpl03 1683384879
+EN control NULL /home/ise/xilinxShare/submission_template/submit/rcs1/control.vhd sub00/vhpl00 1683384872
+AR idea_single structural /home/ise/xilinxShare/submission_template/submit/rcs1/idea_single.vhd sub00/vhpl09 1683384881
+AR control behavioral /home/ise/xilinxShare/submission_template/submit/rcs1/control.vhd sub00/vhpl01 1683384873
+EN idea_single NULL /home/ise/xilinxShare/submission_template/submit/rcs1/idea_single.vhd sub00/vhpl04 1683384880
+AR keygen behavioral /home/ise/xilinxShare/submission_template/submit/rcs1/keygen.vhd sub00/vhpl06 1683384875

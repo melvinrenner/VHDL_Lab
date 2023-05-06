@@ -126,9 +126,7 @@ BEGIN
 
    -- Clock process definitions
    idea_process :process
-   begin
-	assert true report "@@@@@@@@1" severity note;
-            
+   begin            
 		for i in Y_1_data'range loop
 				KEY_sig <= KEY_data(i);	
 				X_1_sig <= X_1_data(i);

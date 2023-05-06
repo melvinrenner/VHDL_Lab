@@ -39,9 +39,58 @@ entity control is
 end control;
 
 architecture Behavioral of control is
-
+	signal state: std_logic_vector(3 downto 0);
 begin
+process (CLK, START)
 
+		type state_type is (s_ready, s_start, s_working);
+		
+		variable state_var : state_type;
+
+	begin
+	
+		if (rising_edge(CLK)) then 
+				case state is
+					when "0000" => state <= "0001";
+					when "0001" => state <= "0010";
+					when "0010" => state <= "0011";
+					when "0011" => state <= "0100";
+					when "0100" => state <= "0101";
+					when "0101" => state <= "0110";
+					when "0110" => state <= "0111";
+					when "0111" => state <= "1000";
+					when "1000" =>
+						if (START = '1') then			
+							state_var := s_start;
+						else
+							state_var := s_ready;
+						end if;
+					when others =>
+						state <= "1000";
+						state_var := s_ready;
+						
+				end case;
+				
+				case state_var is
+					when s_ready =>
+						ROUND <= state;
+						READY <= '1';
+						EN <='0';
+					when s_start => 
+						ROUND <= "0000";
+						READY <= '0';
+						EN <= '1';
+						S <= '0';
+						state <= "0001";
+						state_var := s_working;
+					when s_working => 
+						ROUND <= state;
+						S <= '1';
+				end case;
+				
+			end if;
+		
+	end process;
 
 end Behavioral;
 
