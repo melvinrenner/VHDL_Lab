@@ -13,4 +13,5 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+at 340 ns: Note: Simulation successful! (/tb_idea_single/).
 # exit 0

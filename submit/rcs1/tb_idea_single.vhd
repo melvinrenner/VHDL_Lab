@@ -130,6 +130,9 @@ BEGIN
 		wait for 100 ns;
 		
 		assert Y_1_sig = x"0001" and Y_2_sig = x"0001" and Y_3_sig = x"0000" and Y_4_sig = x"0000"  report "Erronous Output" severity note;
+
+		report "Simulation successful!" severity note;
+		wait;
 		
    end process;
 

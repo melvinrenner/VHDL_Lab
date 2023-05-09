@@ -43,8 +43,7 @@ architecture Behavioral of control is
 begin
 process (CLK, START)
 
-		type state_type is (s_ready, s_start, s_working);
-		
+		type state_type is (s_ready, s_start, s_working);		
 		variable state_var : state_type;
 
 	begin
