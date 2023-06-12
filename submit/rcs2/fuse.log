@@ -18,8 +18,8 @@ Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/rcs2/idea_rc
 Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/rcs2/tb_idea_rcs2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 98812 KB
-Fuse CPU Usage: 1700 ms
+Fuse Memory Usage: 98816 KB
+Fuse CPU Usage: 2690 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -41,6 +41,6 @@ Compiling architecture behavior of entity tb_idea_rcs2
 Time Resolution for simulation is 1ps.
 Compiled 30 VHDL Units
 Built simulation executable /home/ise/xilinxShare/submission_template/submit/rcs2/tb_idea_rcs2_isim_beh.exe
-Fuse Memory Usage: 117864 KB
-Fuse CPU Usage: 2190 ms
-GCC CPU Usage: 1060 ms
+Fuse Memory Usage: 117872 KB
+Fuse CPU Usage: 3410 ms
+GCC CPU Usage: 1570 ms

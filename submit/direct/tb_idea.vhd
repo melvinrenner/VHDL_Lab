@@ -53,52 +53,62 @@ ARCHITECTURE behavior OF tb_idea IS
         );
     END COMPONENT;
 	 
-	 type data_vector_t is array (0 to 1) of std_logic_vector(15 downto 0);
-	 type key_vector_t is array (0 to 1) of std_logic_vector(127 downto 0);
-	 
+	 type data_vector_t is array (0 to 2) of std_logic_vector(15 downto 0);
+	 type key_vector_t is array (0 to 2) of std_logic_vector(127 downto 0);
+	 		
 	 signal X_1_data : data_vector_t := (
         x"1111",
-        x"0000"
+        x"0000",
+        x"1212"
     );
 	 
 	 signal X_2_data : data_vector_t := (
         x"2222",
-        x"0000"
+        x"0000",
+        x"1235"
     );
 	 
 	 signal X_3_data : data_vector_t := (
         x"4444",
-        x"0000"
+        x"0000",
+        x"E467"
     );
 	 
 	 signal X_4_data : data_vector_t := (
         x"8888",
-        x"0000"
+        x"0000",
+        x"0114"
     );
 	 
 	 signal KEY_data : key_vector_t := (
         x"00010002000300040005000600070008",
-        x"00000000000000000000000000000000"
+        x"00000000000000000000000000000000",
+		  x"00010002000300040005000600070008"
     );
-	 
+
+
 	 signal Y_1_data : data_vector_t := (
         x"8aa9",
-        x"0001"
+        x"0001",
+        x"9CF4"
     );
 	 
 	 signal Y_2_data : data_vector_t := (
         x"0fef",
-        x"0001"
+        x"0001",
+        x"165A"
     );
 	 
 	 signal Y_3_data : data_vector_t := (
         x"c0c9",
-        x"0000"
+        x"0000",
+        x"6B77"
     );
 	 
 	 signal Y_4_data : data_vector_t := (
         x"56f6",
-        x"0000"
+        x"0000",
+        x"B8E5"
     );
 	 
 	 

@@ -16,8 +16,8 @@ Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/rcs1/idea_si
 Parsing VHDL file "/home/ise/xilinxShare/submission_template/submit/rcs1/tb_idea_single.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 97272 KB
-Fuse CPU Usage: 1470 ms
+Fuse Memory Usage: 97276 KB
+Fuse CPU Usage: 1540 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -35,6 +35,6 @@ Compiling architecture behavior of entity tb_idea_single
 Time Resolution for simulation is 1ps.
 Compiled 24 VHDL Units
 Built simulation executable /home/ise/xilinxShare/submission_template/submit/rcs1/tb_idea_single_isim_beh.exe
-Fuse Memory Usage: 112068 KB
-Fuse CPU Usage: 1770 ms
-GCC CPU Usage: 820 ms
+Fuse Memory Usage: 112088 KB
+Fuse CPU Usage: 1880 ms
+GCC CPU Usage: 3030 ms

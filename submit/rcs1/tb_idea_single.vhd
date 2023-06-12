@@ -130,6 +130,19 @@ BEGIN
 		wait for 100 ns;
 		
 		assert Y_1_sig = x"0001" and Y_2_sig = x"0001" and Y_3_sig = x"0000" and Y_4_sig = x"0000"  report "Erronous Output" severity note;
+		
+		X_1_sig <= x"1212";
+		X_2_sig <= x"1235";
+		X_3_sig <= x"E467";
+		X_4_sig <= x"0114";
+		KEY_sig <= x"00010002000300040005000600070008";
+		wait for 50 ns;
+		START_sig <= '1';
+		wait for 20 ns;
+		START_sig <= '0';
+		wait for 100 ns;
+		
+		assert Y_1_sig = x"9CF4" and Y_2_sig = x"165A" and Y_3_sig = x"6B77" and Y_4_sig = x"B8E5"  report "Erronous Output" severity note;
 
 		report "Simulation successful!" severity note;
 		wait;

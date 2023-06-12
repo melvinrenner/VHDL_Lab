@@ -9,7 +9,7 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Mon May  8 12:17:31 2023
+Mapped Date    : Wed Jun  7 12:52:43 2023
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:54 - 'xc3s500e' is a WebPack part.
@@ -56,7 +56,7 @@ Average Fanout of Non-Clock Nets:                3.14
 
 Peak Memory Usage:  685 MB
 Total REAL time to MAP completion:  8 secs 
-Total CPU time to MAP completion:   8 secs 
+Total CPU time to MAP completion:   7 secs 
 
 NOTES:
 

@@ -13,5 +13,6 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-at 20 ns: Note: Simulation successful! (/tb_idea/).
+at 25 ns: Note: Erronous Output (/tb_idea/).
+at 30 ns: Note: Simulation successful! (/tb_idea/).
 # exit 0

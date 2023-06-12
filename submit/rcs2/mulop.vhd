@@ -37,41 +37,38 @@ entity mulop is
 end mulop;
 
 architecture Behavioral of mulop is
-signal a_signed : STD_LOGIC_VECTOR (16 downto 0);
-signal b_signed : STD_LOGIC_VECTOR (16 downto 0);
-signal mult_result : STD_LOGIC_VECTOR (33 downto 0);
-signal res : STD_LOGIC_VECTOR (16 downto 0);
-signal modular : STD_LOGIC_VECTOR (15 downto 0);
-signal quotient : STD_LOGIC_VECTOR (16 downto 0);
-
 begin
-	check_zero: process(I1,I2)
-		begin
-			a_signed <= '0' & I1;
-			b_signed <= '0' & I2;
-			if (I1 = "0000000000000000") then
-				a_signed <= "10000000000000000";
-			end if;
-			if (I2 = "0000000000000000") then
-				b_signed <= "10000000000000000";
-			end if;
-		end process;
-			mult_result <= std_logic_vector(unsigned(a_signed) * unsigned(b_signed));
-			modular <= mult_result(15 downto 0);
-			quotient <= mult_result(32 downto 16);
-			
-	outcalc: process(modular,quotient)
-		begin	
-			if (modular >= quotient) then
-				res <= std_logic_vector(unsigned('0' & modular)-unsigned(quotient));
-			else
-				res <= std_logic_vector(unsigned('0' & modular)-unsigned(quotient)+"10000000000000001");
-			end if;
-			
-		end process;
+	MODULO_MUL_PROC : process (I1, I2)
+        variable I1_var,  I2_var : std_logic_vector (16 downto 0);
+        variable product_var : std_logic_vector (33 downto 0);
+        variable modulo_var : std_logic_vector (16 downto 0);
+        variable quotient_var : std_logic_vector (16 downto 0);
+        variable y_var : std_logic_vector (31 downto 0) := (others => '0');
+    begin
+	 
+	 if I1 = std_logic_vector(to_unsigned(0, I1'length)) then
+            I1_var := '1' & I1;
+        else
+            I1_var := '0' & I1;
+        end if;
 
-	O1<= res(15 downto 0);
+        if I2 = std_logic_vector(to_unsigned(0, I2 'length)) then
+            I2_var := '1' & I2 ;
+        else
+            I2_var := '0' & I2 ;
+        end if;
+		  
+		product_var := std_logic_vector(unsigned(I1_var) * unsigned(I2_var));
+        modulo_var := ('0' & product_var(15 downto 0));
+        quotient_var := product_var(32 downto 16);
+
+        y_var := std_logic_vector(to_unsigned(0, I1'left) & (unsigned(modulo_var) - unsigned(quotient_var)));
+        if modulo_var < quotient_var then
+            y_var := std_logic_vector(unsigned(y_var) + to_unsigned(65537, y_var'length));
+        end if;
+        O1 <= y_var(15 downto 0);
+			
+		end process;
 
 
 end Behavioral;
-

@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Mon May 08 12:17:45 2023
+localhost.localdomain::  Wed Jun 07 12:52:57 2023
 
 par -w -intstyle ise -ol high -t 1 idea_com_map.ncd idea_com.ncd idea_com.pcf 
 
@@ -54,8 +54,8 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 4 secs 
-Finished initial Timing Analysis.  REAL time: 4 secs 
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
 
 
 Starting Placer
@@ -63,41 +63,41 @@ Total REAL time at the beginning of Placer: 4 secs
 Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:8bb3c1ab) REAL time: 5 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:8bb3c1ab) REAL time: 4 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:8bb3c1ab) REAL time: 5 secs 
+Phase 2.7  Design Feasibility Check (Checksum:8bb3c1ab) REAL time: 4 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:8bb3c1ab) REAL time: 5 secs 
+Phase 3.31  Local Placement Optimization (Checksum:8bb3c1ab) REAL time: 4 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:8faf3843) REAL time: 13 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:8faf3843) REAL time: 12 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:8faf3843) REAL time: 13 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:8faf3843) REAL time: 12 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:8faf3843) REAL time: 13 secs 
+Phase 6.36  Local Placement Optimization (Checksum:8faf3843) REAL time: 12 secs 
 
 Phase 7.8  Global Placement
 ...................
 ..................
 ........
-Phase 7.8  Global Placement (Checksum:65a098fa) REAL time: 15 secs 
+Phase 7.8  Global Placement (Checksum:65a098fa) REAL time: 14 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:65a098fa) REAL time: 15 secs 
+Phase 8.5  Local Placement Optimization (Checksum:65a098fa) REAL time: 14 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:717047d5) REAL time: 15 secs 
+Phase 9.18  Placement Optimization (Checksum:717047d5) REAL time: 14 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:717047d5) REAL time: 15 secs 
+Phase 10.5  Local Placement Optimization (Checksum:717047d5) REAL time: 14 secs 
 
-Total REAL time to Placer completion: 16 secs 
-Total CPU  time to Placer completion: 15 secs 
+Total REAL time to Placer completion: 14 secs 
+Total CPU  time to Placer completion: 13 secs 
 Writing design to file idea_com.ncd
 
 
@@ -105,28 +105,28 @@ Writing design to file idea_com.ncd
 Starting Router
 
 
-Phase  1  : 6240 unrouted;      REAL time: 30 secs 
+Phase  1  : 6240 unrouted;      REAL time: 26 secs 
 
-Phase  2  : 5975 unrouted;      REAL time: 31 secs 
+Phase  2  : 5975 unrouted;      REAL time: 27 secs 
 
-Phase  3  : 2048 unrouted;      REAL time: 33 secs 
+Phase  3  : 2048 unrouted;      REAL time: 29 secs 
 
-Phase  4  : 2048 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 34 secs 
+Phase  4  : 2048 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 36 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 32 secs 
 
 Updating file: idea_com.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
 WARNING:Route:455 - CLK Net:idea_1/uart1/tx/txclk may have excessive skew because 
       0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 37 secs 
-Total CPU time to Router completion: 35 secs 
+Total REAL time to Router completion: 33 secs 
+Total CPU time to Router completion: 31 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -184,8 +184,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 40 secs 
-Total CPU time to PAR completion: 37 secs 
+Total REAL time to PAR completion: 36 secs 
+Total CPU time to PAR completion: 33 secs 
 
 Peak Memory Usage:  670 MB
 

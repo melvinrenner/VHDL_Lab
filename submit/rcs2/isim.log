@@ -10,7 +10,8 @@ This is a Full version of ISim.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
-# run 1000 ns
+# run 4000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+at 3690 ns: Note: Simulation successful! (/tb_idea_rcs2/).
 # exit 0

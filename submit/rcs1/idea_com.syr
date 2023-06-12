@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> 
 Reading design: idea_com.prj
@@ -114,7 +114,8 @@ Architecture behavioral of Entity addop is up to date.
 Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/rcs1/xorop.vhd" in Library work.
 Architecture behavioral of Entity xorop is up to date.
 Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/rcs1/control.vhd" in Library work.
-Architecture behavioral of Entity control is up to date.
+Entity <control> compiled.
+Entity <control> (Architecture <behavioral>) compiled.
 Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/rcs1/keygen.vhd" in Library work.
 Architecture behavioral of Entity keygen is up to date.
 Compiling vhdl file "/home/ise/xilinxShare/submission_template/submit/rcs1/mux2x1.vhd" in Library work.
@@ -716,7 +717,7 @@ Delay:               7.013ns (Levels of Logic = 14)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_div_1/CLK_OUT1'
   Clock period: 57.437ns (frequency: 17.411MHz)
-  Total number of paths / destination ports: 251591947686044640 / 626
+  Total number of paths / destination ports: 251591947686044608 / 626
 -------------------------------------------------------------------------
 Delay:               57.437ns (Levels of Logic = 107)
   Source:            idea_1/idea1/control_1/ROUND_3 (FF)
@@ -969,13 +970,13 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 42.00 secs
-Total CPU time to Xst completion: 38.10 secs
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 45.43 secs
  
 --> 
 
 
-Total memory usage is 654628 kilobytes
+Total memory usage is 654616 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    6 (   0 filtered)
